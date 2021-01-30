@@ -39,8 +39,7 @@ public class LecturaArchivo {
                 numeroEstablecimientos = linea_partes.get(1); 
                 numeroEstablecimientosEntero = Integer.parseInt(numeroEstablecimientos);
                 
-                // agregar código aquí
-                
+                // agregar código aqui
                 
             } // fin de while
             entrada.close();

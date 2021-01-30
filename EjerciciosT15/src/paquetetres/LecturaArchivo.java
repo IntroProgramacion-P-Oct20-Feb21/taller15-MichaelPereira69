@@ -37,14 +37,15 @@ public class LecturaArchivo {
                 // String
                 nombreCanton = linea_partes.get(0);
                 numeroEstablecimientos = linea_partes.get(1); 
-                numeroEstablecimientosEntero = Integer.parseInt(numeroEstablecimientos);
-                
+                numeroEstablecimientosEntero = Integer.parseInt(numeroEstablecimientos);  
+                 if (numeroEstablecimientosEntero<=25) ;
                 // agregar código aquí
                 
-                cadenaFinal = String.format("Cantón %s (%d)\n", 
+                cadenaFinal = String.format("%sCantón %s (%d)\n", 
+                        cadenaFinal,
                         nombreCanton,
                         numeroEstablecimientosEntero);
-                
+            
             } // fin de while
             entrada.close();
         } // fin de try

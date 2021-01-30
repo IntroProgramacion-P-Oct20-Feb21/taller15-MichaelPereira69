@@ -9,6 +9,7 @@ package paquetesiete;
  *
  * @author reroes
  */
+
 public class Principal {
 
     /**
@@ -16,8 +17,8 @@ public class Principal {
      */
     public static void main(String[] args) {
         // 
-        double sueldosSucursal1 = 0;
-        double sueldosSucursal2 = 0;
+        double sueldosSucursal1 = paquetesiete.LecturaArchivo.leerRegistros();
+        double sueldosSucursal2 = paquetesiete.LecturaArchivo.leerRegistro2();
         System.out.printf("La suma total de sueldos es %.2f\n", 
                 sueldosSucursal1 + sueldosSucursal2);
     }

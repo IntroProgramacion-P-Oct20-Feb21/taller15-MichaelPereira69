@@ -43,10 +43,12 @@ public class LecturaArchivo {
                 // acumluación
                 // Java ofrece el proceso Integer.parseInt
                 // para transformar un valor de tipo String a Entero
-                numeroEstablecimientosEntero = Integer.parseInt(numeroEstablecimientos);
-                // agregar código aquí
-                
-                
+        numeroEstablecimientosEntero = Integer.parseInt(numeroEstablecimientos);
+                //agregar código aquí
+               //System.out.printf("%d\n", numeroEstablecimientosEntero);
+             // System.out.printf("%d\n", numeroEstablecimientosEntero );
+   
+                suma = suma+ numeroEstablecimientosEntero;
             } // fin de while
             entrada.close();
         } // fin de try
